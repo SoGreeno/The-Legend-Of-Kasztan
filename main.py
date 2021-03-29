@@ -12,7 +12,7 @@ kasztany = 0
 startgry = input("> ")
 
 if startgry == "a": # Jeśli tu dam "a" or "A" to wtedy każda odpowiedź uruchamia if'a. excuse me what.
-    print("Dawno (nie aż tak dawno) temu był legendarny mistrz kasztanów )
+    print("Dawno (nie aż tak dawno) temu był legendarny mistrz kasztanów")
     time.sleep(2)     # Nie wiem dlaczego tutaj zatrzymuje pythona ale może poprostu usunę time.sleep i będzie ok.
     print("który rządził wszystkimi kasztanami na świecie.")
     time.sleep(2)
@@ -38,7 +38,7 @@ if koniecHistorii == "tak":
 else:
     print("Błąd. Zmienna nie jest równa z if'em.")
 
-if wyborGry == "a": # dlaczego to niedziała? 
+if wyborGry == "a": # dlaczego to nie działa? 
     koniecHistorii = "nie"
     print("Szukasz kasztany wokół siebie...")
     time.sleep(5)
