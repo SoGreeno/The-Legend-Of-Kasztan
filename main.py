@@ -13,15 +13,10 @@ startgry = input("> ")
 
 if startgry == "a": # Jeśli tu dam "a" or "A" to wtedy każda odpowiedź uruchamia if'a. excuse me what.
     print("Dawno (nie aż tak dawno) temu był legendarny mistrz kasztanów")
-    time.sleep(2)     # Nie wiem dlaczego tutaj zatrzymuje pythona ale może poprostu usunę time.sleep i będzie ok.
     print("który rządził wszystkimi kasztanami na świecie.")
-    time.sleep(2)
     print("Ale nadszedł dzień...")
-    time.sleep(1.6) #tutaj też zatrzymuje. nie wiem dlaczego
     print("Gdzie Mistrz kasztanów został zwyciężony przez armię Anty-Kasztanową...")
-    time.sleep(3)
     print("Wieśniacy potrzebowali bohatera. który pokona armię Anty-Kasztanową")
-    time.sleep(3)
     print("A ten bohater był:")
     nazwaBohatera = input("> ") # z jakiegoś powodu tutaj zamiast nazwy jakiej wpisałeś pokazało "" dlaczego? bo nie dodałem na zmiennej która jest na linijce 8
     print(nazwaBohatera + ". Który pokona armię i uratuję wioskę Kukankowo.")
